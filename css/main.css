@@ -1,0 +1,381 @@
+body {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000;
+  background-color: #fff;
+  letter-spacing: 0px;
+}
+
+.navbar {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar .navbar-brand {
+  width: 200px;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding: 23px 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  -webkit-animation: fade 0.5s;
+  animation: fade 0.5s;
+  /*background-color: rgba(33, 30, 59, 0.8);*/
+  background-color: rgba(207, 23, 23, 0.6);
+  box-shadow: 0 4px 4px -6px #333;
+}
+
+.welcome-container {
+  background-image: url("../img/lucy.png");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.welcome-container .pages-title {
+  width: 40%;
+  bottom: 30px;
+  padding-right: 25px;
+}
+
+.pages-title {
+  position: absolute;
+  bottom: 50px;
+  color: #fff;
+}
+
+.blogs-bg .pages-title h1 {
+  font-size: 40px;
+}
+
+.pages-title h1 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.page-nav {
+  width: 100%;
+  z-index: 1;
+}
+
+.page-nav p {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.pages-title a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.section-title span {
+  color: #cf1717;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.section-title h2 {
+  margin-top: 0;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.single-deal {
+  box-shadow: 0 0 40px rgb(0 0 0 / 7%);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.single-deal figure {
+  position: relative;
+  text-align: center;
+  margin: 0;
+}
+
+.single-deal figure img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.single-deal figcaption {
+  overflow: hidden;
+  padding: 15px 20px;
+  text-align: left;
+  background-color: transparent;
+  transition: 0.2s;
+  position: absolute;
+  z-index: 11;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+}
+
+.single-deal h4 {
+  margin-bottom: 7px;
+  font-size: 18px;
+  text-align: left;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.single-deal p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.destination-rating {
+  font-size: 13px;
+  color: #fec42d;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.why-us {
+  background-color: #211e3b;
+  color: #fff;
+}
+
+.single-counter {
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 45px 15px;
+  border-radius: 5px;
+}
+
+.counter-content {
+  overflow: hidden;
+}
+
+.counterup-area .section-title h2,
+.single-counter h2,
+.single-counter h3 {
+  color: #fff;
+}
+
+.counter-num {
+  font-size: 45px;
+}
+
+.single-counter p {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.single-counter span {
+  width: 8px;
+  height: 8px;
+  background-color: #cf1717;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.post-btn {
+  font-weight: 700;
+  color: #cf1717;
+  transition: 0.5s;
+  text-decoration: underline !important;
+}
+
+.blog-articles {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+footer {
+  padding: 80px 0px;
+  background: #211e3b;
+}
+
+.footer-logo {
+  width: 180px;
+  margin: auto;
+}
+
+ul.footer-menu {
+  margin: 30px 0px;
+  list-style: none;
+}
+
+ul.footer-menu li {
+  margin: 0px 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+ul.footer-menu li a {
+  color: #fff;
+}
+
+.footer-social div {
+  margin: 0px 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.footer-social div .fab {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #211e3b;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.contact-banner {
+  background: #eff4f5;
+  padding: 50px 0px;
+}
+
+.contact-box {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.cb-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  background: #cf1717;
+  margin: auto auto 15px;
+  color: #fff;
+}
+
+.cb-icon {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact-box p {
+  margin-bottom: 0px;
+}
+
+.contact-box a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.custom-form {
+  display: block;
+  width: 100%;
+  height: calc(2em + 1rem + 2px);
+  padding: 8px 25px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #211e3b;
+  background-color: #f0f2f5 !important;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 50rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: "Open Sans", sans-serif;
+}
+
+.with-errors {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  color: red;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.message-form {
+  background-color: #f0f2f5 !important;
+  border-radius: 10px !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #cf1717;
+  border-color: #cf1717;
+  
+}
+
+.btn-primary:hover {
+  background-color: #b91717;
+  border-color: #b91717;
+}
+
